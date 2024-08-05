@@ -3,10 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Complete Airbyte_API_Workflow Step-Step-Guide</title>
 </head>
 <body>
-    <h1>Main Title</h1>
+    <h1>Complete Airbyte_API_Workflow Step-Step-Guide</h1>
     <h2>Table of Contents</h2>
     <nav id="toc">
         <ul>
