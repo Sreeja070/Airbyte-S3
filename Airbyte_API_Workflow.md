@@ -49,6 +49,15 @@
         <li>Open the settings option and click on create application.</li>
         <li>Enter a name for your new application and complete the creation process.</li>
         <li>Make sure to copy and securely store the Client ID and Client Secret, as these are essential for generating tokens.</li>
+        <li>Your code should look similar to this: <code>curl --request POST \
+     --url https://api.airbyte.com/v1/applications \
+     --header 'accept: application/json' \
+     --header 'authorization: Bearer "Provide your authorization code over here."' \
+     --header 'content-type: application/json' \
+     --data '
+     {
+      "name": "Test_application"
+     }</code>
     </ul>
 <h2 id="Obtain-Access-Token">Obtain an Access Token</h2>
 <p>Follow the steps below to obtain an access token from the Airbyte reference documentation:</p>
